@@ -35,6 +35,16 @@ const Header = () => (
           <p className="p-text">Frontend Developer</p>
           <p className="p-text">React</p>
         </div>
+        <div className="info_button">
+          <button>
+            <a href="#contact">Contact Me</a>
+          </button>
+          <button>
+            <a href="/cv.pdf" download="cv">
+              Download CV
+            </a>
+          </button>
+        </div>
       </div>
     </motion.div>
 

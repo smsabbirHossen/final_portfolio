@@ -25,7 +25,7 @@ import node from "../assets/node.png";
 import python from "../assets/python.png";
 import react from "../assets/react.png";
 import redux from "../assets/redux.png";
-import profile from "../assets/sabbir1_png.png";
+import profile from "../assets/sabbir2.png";
 import sass from "../assets/sass.png";
 import skype from "../assets/skype.png";
 import spotify from "../assets/spotify.png";

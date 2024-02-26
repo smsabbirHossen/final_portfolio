@@ -12,7 +12,9 @@ const Navbar = () => {
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
-        <img className="nav-logo" src={images.logo} alt="logo" />
+        <a href="#home">
+          <img className="nav-logo" src={images.logo} alt="logo" />
+        </a>
       </div>
       <ul className="app__navbar-links">
         {["home", "about", "work", "skills", "contact"].map((item) => (
@@ -44,6 +46,12 @@ const Navbar = () => {
                   </a>
                 </li>
               ))}
+
+              <button>
+                <a href="/cv.pdf" download="cv">
+                  Download CV
+                </a>
+              </button>
             </ul>
           </motion.div>
         )}
